@@ -21,4 +21,16 @@
       <ProjectReference Include="..\intersysTasks\intersysTasks.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="intersysTests\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="intersysTests\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="intersysTests\obj\**" />
+    </ItemGroup>
+
 </Project>

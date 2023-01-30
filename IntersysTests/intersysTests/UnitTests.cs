@@ -7,8 +7,8 @@ public class UnitTests
     public void ReverseArrayTest()
     {
         var input = new [] {1,2,3};
-        var expected = new [] { 3, 2, 1 };
-        Assert.That(ReverseArray.ReverseArr(3, input), Is.EqualTo(expected));
+        var expected = "3 2 1";
+        Assert.That(ReverseArray.GetInvertedArray(3, input), Is.EqualTo(expected));
     }
 
     [Test]
@@ -16,7 +16,7 @@ public class UnitTests
     {
         var input = new [] {1,2,3};
         
-        Assert.Throws<ArgumentException>(() => ReverseArray.ReverseArr(5, input));
+        Assert.Throws<ArgumentException>(() => ReverseArray.GetInvertedArray(5, input));
         
     }
 
@@ -24,6 +24,6 @@ public class UnitTests
     public void ReverseArrayArgumentException()
     {
         var input = new [] {1,2};
-        Assert.Throws<ArgumentOutOfRangeException>(() => ReverseArray.ReverseArr(0, input));
+        Assert.Throws<ArgumentOutOfRangeException>(() => ReverseArray.GetInvertedArray(0, input));
     }
 }

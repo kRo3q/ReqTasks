@@ -13,12 +13,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="IntersysTests\**" />
+    <Compile Remove="bin\**" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="IntersysTests\**" />
+    <EmbeddedResource Remove="bin\**" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="IntersysTests\**" />
+    <None Remove="bin\**" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
