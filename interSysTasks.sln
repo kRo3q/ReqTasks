@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersysTests", "IntersysTests\IntersysTests.csproj", "{798BD4FC-32FC-4F74-860C-36B535064050}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReqTasksTests", "ReqTasksTests\ReqTasksTests.csproj", "{798BD4FC-32FC-4F74-860C-36B535064050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intersysTasks", "intersysTasks\intersysTasks.csproj", "{63C6752E-E81D-46B9-9842-25DCA809722D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReqTasks", "ReqTasks\ReqTasks.csproj", "{63C6752E-E81D-46B9-9842-25DCA809722D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

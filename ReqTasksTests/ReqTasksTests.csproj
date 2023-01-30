@@ -17,8 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\intersysTasks.csproj" />
-      <ProjectReference Include="..\intersysTasks\intersysTasks.csproj" />
+      <ProjectReference Include="..\ReqTasks\ReqTasks.csproj" />
     </ItemGroup>
 
     <ItemGroup>

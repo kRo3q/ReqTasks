@@ -1,5 +1,5 @@
 
-namespace IntersysTests.intersysTests;
+namespace ReqTasksTests.intersysTests;
 
 public class UnitTests
 {

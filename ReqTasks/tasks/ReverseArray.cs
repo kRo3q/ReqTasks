@@ -1,4 +1,4 @@
-namespace intersysTasks.tasks;
+namespace ReqTasks.tasks;
 
 using System;
 using System.Linq;

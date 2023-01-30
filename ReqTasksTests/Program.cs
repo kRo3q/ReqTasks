@@ -1,4 +1,4 @@
-namespace IntersysTests;
+namespace ReqTasksTests;
 
 public class Program
 {
