@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kro3q/Projects/intersysTasks/intersysTasks.csproj": {}
+    "/home/kro3q/Projects/intersysTasks/intersysTasks/intersysTasks.csproj": {}
   },
   "projects": {
-    "/home/kro3q/Projects/intersysTasks/intersysTasks.csproj": {
+    "/home/kro3q/Projects/intersysTasks/intersysTasks/intersysTasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kro3q/Projects/intersysTasks/intersysTasks.csproj",
+        "projectUniqueName": "/home/kro3q/Projects/intersysTasks/intersysTasks/intersysTasks.csproj",
         "projectName": "intersysTasks",
-        "projectPath": "/home/kro3q/Projects/intersysTasks/intersysTasks.csproj",
+        "projectPath": "/home/kro3q/Projects/intersysTasks/intersysTasks/intersysTasks.csproj",
         "packagesPath": "/home/kro3q/.nuget/packages/",
-        "outputPath": "/home/kro3q/Projects/intersysTasks/obj/",
+        "outputPath": "/home/kro3q/Projects/intersysTasks/intersysTasks/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kro3q/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.4.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intersysTasks", "intersysTasks.csproj", "{159A853D-F804-4431-A5D8-D8D61477E82C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersysTests", "IntersysTests\IntersysTests.csproj", "{798BD4FC-32FC-4F74-860C-36B535064050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intersysTasks", "intersysTasks\intersysTasks.csproj", "{63C6752E-E81D-46B9-9842-25DCA809722D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{159A853D-F804-4431-A5D8-D8D61477E82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{159A853D-F804-4431-A5D8-D8D61477E82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{159A853D-F804-4431-A5D8-D8D61477E82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{159A853D-F804-4431-A5D8-D8D61477E82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798BD4FC-32FC-4F74-860C-36B535064050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798BD4FC-32FC-4F74-860C-36B535064050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798BD4FC-32FC-4F74-860C-36B535064050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798BD4FC-32FC-4F74-860C-36B535064050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C6752E-E81D-46B9-9842-25DCA809722D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C6752E-E81D-46B9-9842-25DCA809722D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C6752E-E81D-46B9-9842-25DCA809722D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C6752E-E81D-46B9-9842-25DCA809722D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

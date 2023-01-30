@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NuGet.Frameworks" Version="6.4.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="IntersysTests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="IntersysTests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="IntersysTests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\intersysTasks" />
+    <Content Include="bin\Debug\net7.0\intersysTasks.deps.json" />
+    <Content Include="bin\Debug\net7.0\intersysTasks.dll" />
+    <Content Include="bin\Debug\net7.0\intersysTasks.pdb" />
+    <Content Include="bin\Debug\net7.0\intersysTasks.runtimeconfig.json" />
+    <Content Include="bin\Debug\net7.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.TestPlatform.Utilities.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <Content Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <Content Include="bin\Debug\net7.0\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\net7.0\NuGet.Frameworks.dll" />
+    <Content Include="bin\Debug\net7.0\nunit.framework.dll" />
+    <Content Include="bin\Debug\net7.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\testhost.dll" />
+    <Content Include="bin\Debug\net7.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+  </ItemGroup>
+</Project>
