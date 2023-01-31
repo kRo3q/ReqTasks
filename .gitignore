@@ -17,6 +17,8 @@ test-results/
 !.vscode/*.code-snippets
 ReqTasksTests/bin
 ReqTasksTests/obj
+ReqTasks/obj
+ReqTasks/bin
 # Local History for Visual Studio Code
 .history/
 
