@@ -15,7 +15,8 @@ test-results/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
+ReqTasksTests/bin
+ReqTasksTests/obj
 # Local History for Visual Studio Code
 .history/
 
