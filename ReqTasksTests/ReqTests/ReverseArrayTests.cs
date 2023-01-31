@@ -7,15 +7,13 @@ public class ReverseArrayTests
     public void ReverseArrayTest()
     {
         var input = new [] {1,2,3};
-        var expected = "3 2 1";
-        Assert.That(ReverseArray.GetInvertedArray(3, input), Is.EqualTo(expected));
+        Assert.That(ReverseArray.GetInvertedArray(3, input), Is.EqualTo("3 2 1"));
     }
 
     [Test]
     public void ReverseArrayOutOfBoundSizeTest()
     {
         var input = new [] {1,2,3};
-        
         Assert.Throws<ArgumentException>(() => ReverseArray.GetInvertedArray(5, input));
         
     }
