@@ -1,7 +1,7 @@
 
 namespace ReqTasksTests.intersysTests;
 
-public class UnitTests
+public class ReverseArrayTests
 {
     [Test]
     public void ReverseArrayTest()

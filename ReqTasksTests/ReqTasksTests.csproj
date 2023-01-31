@@ -22,14 +22,17 @@
 
     <ItemGroup>
       <Compile Remove="intersysTests\obj\**" />
+      <Compile Remove="ReqTests\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="intersysTests\obj\**" />
+      <EmbeddedResource Remove="ReqTests\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="intersysTests\obj\**" />
+      <None Remove="ReqTests\obj\**" />
     </ItemGroup>
 
 </Project>

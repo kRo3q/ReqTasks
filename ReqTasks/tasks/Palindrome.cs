@@ -4,9 +4,13 @@ public static class Palindrome
 {
     public static string IsPalindrome(string input)
     {
+        if (string.IsNullOrEmpty(input))
+        {
+            throw new ArgumentNullException(nameof(input));
+        }
         var inputAsCharArr = NormalizeInputString(input).ToCharArray();
         var j = inputAsCharArr.Length - 1;
-        for (int i = 0; i < j; i++)
+        for (var i = 0; i < j; i++)
         {
             if (inputAsCharArr[i] != inputAsCharArr[j])
             {
